@@ -1,0 +1,54 @@
+body{
+    background-color: #9fb3d8;
+    overflow: hidden;
+}
+.usuario{
+    width: 400px;
+    margin: auto;
+    padding: 10% ;
+    margin-top: 50px;
+}
+.form{
+    position: relative;
+    /* posiciona o form em um plano acima do body */
+    z-index:1;
+    background-color: #9ab3d8;
+    max-width: 320px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.7) ;
+    border-radius: 15px;
+}
+.loginimg {
+    height: 150px;
+    width: 150px;
+}
+.form input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0;
+    border-radius: 5px;
+    background: #d4d0d0;
+    width: 80%;
+    margin: 15px 5px 15px;
+    padding: 15px;
+    font-size: 10;
+    outline: 0;
+}
+
+.form button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    background: #292626;
+    width: 70%;
+    border-radius: 7px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.form button:hover{
+    background: #000000;
+}
