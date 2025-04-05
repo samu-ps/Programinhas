@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projeto Cadastro</title>
         <link rel="stylesheet" href="./estilo/estilo2.css">
-        <script src="./script/scripts.js"></script>
+        <link rel="shortcut icon" href="./img/inscription.png"
     </head>
     <body>
         <div class="usuario">
@@ -26,5 +26,6 @@
                 </form>
             </div>
         </div>
+        <script src="./script/scripts.js"></script>
     </body>
 </html>
