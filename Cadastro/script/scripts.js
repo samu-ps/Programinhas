@@ -28,3 +28,16 @@ document.getElementById('telefone').addEventListener('input',function (e) {
     
     e.target.value = value;
 });
+// arrumar isso aqui
+// document.getElementById('CEP').addEventListener('input', function (e) {
+//     let value = e.target.value.replace(/\D/g, ''); // Remove caracteres não numéricos
+
+//     if (value.length > 8) {
+//         value = value.slice(0, 8); // Limita a 8 dígitos
+//     }
+
+//     // Aplica a máscara no formato 00000-000
+//     value = value.replace(/^\d{5}-\d{3}$/);
+    
+//     e.target.value = value;
+// });
