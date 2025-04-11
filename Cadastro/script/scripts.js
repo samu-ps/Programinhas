@@ -28,15 +28,3 @@ document.getElementById('telefone').addEventListener('input',function (e) {
     
     e.target.value = value;
 });
-// Função ver/esconder senha
-    function toggleSenha() {
-        let input=document.getElementById("senha");
-        let button=document.getElementById("versenha");
-        if (input.type==="password") {
-            input.type="text"; // Mostra a senha
-            button.textContent="🙈 Esconder Senha";
-        } else {
-            input.type="password"; // Oculta a senha
-            button.textContent="👁️ Ver Senha";
-        }
-    }
