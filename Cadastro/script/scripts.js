@@ -28,15 +28,16 @@ document.getElementById('telefone').addEventListener('input',function (e) {
     
     e.target.value = value;
 });
-// Função ver/esconder senha
-    function toggleSenha() {
-        let input=document.getElementById("senha");
-        let button=document.getElementById("versenha");
-        if (input.type==="password") {
-            input.type="text"; // Mostra a senha
-            button.textContent="🙈 Esconder Senha";
-        } else {
-            input.type="password"; // Oculta a senha
-            button.textContent="👁️ Ver Senha";
-        }
-    }
+// arrumar isso aqui
+// document.getElementById('CEP').addEventListener('input', function (e) {
+//     let value = e.target.value.replace(/\D/g, ''); // Remove caracteres não numéricos
+
+//     if (value.length > 8) {
+//         value = value.slice(0, 8); // Limita a 8 dígitos
+//     }
+
+//     // Aplica a máscara no formato 00000-000
+//     value = value.replace(/^\d{5}-\d{3}$/);
+    
+//     e.target.value = value;
+// });
