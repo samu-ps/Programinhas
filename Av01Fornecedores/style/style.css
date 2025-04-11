@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(0, 42, 97);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.usuario h1{
+    /* cor da apresentação */
+    color:rgb(128, 50, 201)
+}
+.form{
+    /* configuração do form */
+    width: 100%;
+    min-width: 15%;
+    position: relative;
+    background-color: rgb(0, 0, 77);
+    text-align: center;
+    color: #d4d0d0;
+    box-shadow: 0px 0px 5px 5px rgb(0, 162, 255);
+}
+.form input {
+    /* coniguração do input dentro do form */
+    width: 50%; 
+    padding: 12px;
+    margin: 5px 0; 
+    border: 0;
+    border-radius: 5px;
+    background: #d4d0d0;
+    font-size: 16px; 
+}
+.form p{
+    /* estilização do p */
+    margin: 10px 0 1px;
+    align-items: left;
+}
+.enviar{
+    /* estilização do botão de enviar */
+    border-radius: 15px;
+    margin: 20px;
+    width: 60%;
+    height: 35px;
+    background-color: rgb(2, 102, 2);
+}
+.enviar:hover{
+    /* mudanças ao passar o mouse por cima */
+    background-color: rgb(1, 139, 1);
+    cursor: pointer;
+}
+
+/* configuração de fornecedores.php */
+.form-forn input {
+    width: 50%; 
+    padding: 12px;
+    margin: 5px 0; 
+    border: 0;
+    border-radius: 5px;
+    background: #d4d0d0;
+    font-size: 16px; 
+    outline: none;
+}
+.form-forn p{
+    margin: 10px 0 1px;
+    align-content: left;
+}
+.fornecedores{
+    width: 50%;
+    min-width: 15%;
+    position: relative;
+    background-color: rgb(0, 0, 77);
+    text-align: center;
+    color: #d4d0d0;
+    box-shadow: 0px 0px 5px 5px rgb(0, 162, 255);
+}
+.cadastro{
+    /* configuração de alinhamento em colunas */
+    display: flex;
+    gap: 15px; /*espaço entre as colunas */
+    justify-content: space-between;
+}
+.secao{
+    /* faz com que as colunas ocupem o mesmo espaço */
+    flex: 1;
+    text-align: center;
+}
