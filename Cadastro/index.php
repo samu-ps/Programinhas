@@ -2,39 +2,11 @@
 <!-- Nome, CPF, Telefone, Endereço completo senha, confirmar senha, botões salvar e cancelar,  -->
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD:Cadastro/index.php
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projeto Cadastro</title>
-        <link rel="stylesheet" href="./estilo/estilo2.css">
-        <link rel="shortcut icon" href="./img/inscription.png"
-    </head>
-    <body>
-        <div class="usuario">
-            <div class="formulario">
-                <h2>Faça o Cadastro no Sistema</h2>
-                <img src="./img/signup.png" alt="Key" width="90px" height="90px">
-                <form action="#">
-                    <input type="text" class="Nome" placeholder="Nome de Cadastro" required> 
-                    <input type="text" id="cpf" class="CPF" placeholder="000.000.000-00" required >
-                    <input type="text" id="telefone" class="Tel" placeholder="(00) 00000-0000"  required>
-                    <input type="text" class="End" placeholder="Cidade, Bairro, Rua" required>
-                    <input type="password" id="senha" class="senha" placeholder="Senha" required > <button id="versenha" class="ver" type="button" onclick="toggleSenha()">👁️ Ver Senha</button>
-                    <input type="password" id="csenha" class="csenha" placeholder="Confirmar senha" required > 
-                    <button class="confirm">Confirmar</button>
-                    <button class="cancel">Cancelar</button>
-                </form>
-            </div>
-        </div>
-        <script src="./script/scripts.js"></script>
-    </body>
-=======
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Cadastro</title>
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/signup.png" type="image/x-icon">
     <link rel="stylesheet" href="./estilo/estilo2.css">
 </head>
 <body>
@@ -82,5 +54,4 @@
     </div>
     <script src="./script/scripts.js" defer></script>
 </body>
->>>>>>> bc3451bdfb6ce7b37a8b13197f0d419887314004:Cadastro/index.html
 </html>
