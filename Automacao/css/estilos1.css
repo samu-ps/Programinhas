@@ -63,3 +63,7 @@ body{
 .form button:hover{
     background: #000000;
 }
+
+.erro{
+    color: white;
+}
