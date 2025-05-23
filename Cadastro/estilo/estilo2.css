@@ -16,8 +16,10 @@ body {
 .formulario {
     position: relative;
     background-color: #1b1b1b;
-    max-width: 800px; /* Aumenta a largura para acomodar as seções lado a lado */
-    padding: 20px; /* Mais espaçamento interno */
+    max-width: 1100px; /* Aumenta a largura para acomodar as seções lado a lado */
+    width: 400px;
+    height: 900px;
+    padding: 40px; /* Mais espaçamento interno */
     text-align: center;
     box-shadow: 0px 0px 10px 10px rgba(95, 13, 13, 0.7);
     border-radius: 10px; /* Bordas arredondadas */
