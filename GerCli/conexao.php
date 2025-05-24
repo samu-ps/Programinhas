@@ -4,7 +4,7 @@
     //Informar os dados do servidor DB
     // Criar variável de memória para conter as informações de acesso ao DB
     $servidor = 'localhost';
-    $banco = 'vendas';
+    $banco = 'gercli';
     $usuario = 'root';
     $senha = '';
     

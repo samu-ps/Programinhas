@@ -1,0 +1,66 @@
+index.php
+0 - conexao com banco de dados
+1 - criar a seção php2
+2 - definir título
+3 - link com arquivo de estilo
+4 - definir icone
+
+5 - criar os inputs(usuario e senha)
+6 - criar o botão de login (button)
+7 - definir ação e post, enviar para autenticar.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- VARIÁVEIS FUNCIONÁRIOS -->
+<!-- nomeFunc varchar(150) 
+cpfFunc varchar(14) 
+foneFunc varchar(14) 
+emailFunc varchar(45) 
+funcaoFunc varchar(45) 
+ativoFunc varchar(3) 
+cepFunc varchar(9) 
+ruaFunc varchar(150) 
+numFunc varchar(5) 
+compFunc varchar(25) 
+bairroFunc varchar(45) 
+cidadeFunc varchar(45) 
+estadoFunc varchar(45) 
+funcionarioscol varchar(45) 
+senhaFunc varchar(45) 
+senhaCripFunc varchar(250) 
+usuarioFunc varchar(45) -->
+
+<!-- VARIÁVEIS CLIENTES -->
+<!-- idCLi int(5) AI PK 
+nomeCli varchar(150) 
+cpfCli varchar(14) 
+foneCli varchar(14) 
+emailCli varchar(100) 
+cepCli varchar(9) 
+ruaCli varchar(150) 
+numCli varchar(5) 
+compCli varchar(25) 
+bairroCli varchar(45) 
+cidadeCli varchar(100) 
+estadoCli varchar(100) 
+FK_idFunc int(5) -->
