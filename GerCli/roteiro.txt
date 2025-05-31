@@ -1,14 +1,19 @@
 index.php
-0 - conexao com banco de dados
-1 - criar a seção php2
-2 - definir título
-3 - link com arquivo de estilo
-4 - definir icone
+1 - Criar a estrutura html
+2 - input de login e senha 
+3 - button Entrar
+4 - fazer conexão ao arquivo conexão.php
 
-5 - criar os inputs(usuario e senha)
-6 - criar o botão de login (button)
-7 - definir ação e post, enviar para autenticar.php
+conexao.php
+4.1 - configuraro arquivo conexão.php
 
+index.php
+5 - configurar o 'action' e o POST do form para o envio dos dados ao arquivo autenticar.php
+
+autenticar.php
+5.1 - autenticação: verificar se o usuário e senha esta correto
+5.2 - se correto, direciona para o arquivo principal.php
+5.3 - se incorreto, direciona para o arquivo index.php
 
 
 
