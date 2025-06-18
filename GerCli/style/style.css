@@ -5,18 +5,21 @@ body {
     align-items: center;
     min-height: 97%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    zoom: 100%;
 }
 html{
     height: 100%;
 }
 
+
 .form{
     background-color: #1454b4;
-    max-width: 320px;
     padding: 20px 20px 20px 20px;
     text-align: center;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.7) ;
     border-radius: 5px;
+    margin: 15px;
+    margin-top: 15px;
 }
 
 input{
@@ -26,16 +29,7 @@ input{
     margin: 10px;
     border-radius: 5px;
 }
-button{
-    color: black;
-    background-color: green;
-    height: 40px;
-    width: 100px;
-    padding: 5px;
-    margin-top: 2%;
-    cursor: pointer;
-    border-radius: 7px;
-}
-button:hover{
-    background-color: rgb(1, 177, 1);
+
+#nomeFunc {
+    text-transform: uppercase;
 }
