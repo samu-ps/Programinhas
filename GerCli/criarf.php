@@ -24,7 +24,7 @@
         $query = "INSERT INTO gercli.funcionarios (usuarioFunc, nomeFunc, cpfFunc, senhaFunc, foneFunc, emailFunc, funcaoFunc,
         ativoFunc, cepFunc, ruaFunc, numFunc, compFunc, bairroFunc, cidadeFunc, estadoFunc)
         VALUES (:user, :nome, :cpf, :senha, :fone, :email, :funcao, :ativo, :cep, :rua, :num, :comp, :bairro, :cidade, :estado)";
-        $stmt=$pdo->prepare(query: $query);
+        $stmt=$pdo->prepare(query:  $query);
         $stmt->bindParam(':user',   $user);
         $stmt->bindParam(':nome',   $nome);
         $stmt->bindParam(':cpf',    $cpf) ;
