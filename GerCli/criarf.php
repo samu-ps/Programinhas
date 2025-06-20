@@ -21,29 +21,29 @@
     $estado = $_POST['estadoFunc'];
 
     try {
-        $query = "INSERT INTO gercli.funcionarios (usuarioFunc, nomeFunc, cpfFunc, senhaFunc, foneFunc, emailFunc, funcaoFunc, ativoFunc,
-        cepFunc, ruaFunc, numFunc, compFunc, bairroFunc, cidadeFunc, estadoFunc)
+        $query = "INSERT INTO gercli.funcionarios (usuarioFunc, nomeFunc, cpfFunc, senhaFunc, foneFunc, emailFunc, funcaoFunc,
+        ativoFunc, cepFunc, ruaFunc, numFunc, compFunc, bairroFunc, cidadeFunc, estadoFunc)
         VALUES (:user, :nome, :cpf, :senha, :fone, :email, :funcao, :ativo, :cep, :rua, :num, :comp, :bairro, :cidade, :estado)";
         $stmt=$pdo->prepare(query: $query);
-        $stmt->bindParam(':user', $user);
-        $stmt->bindParam(':nome', $nome );
-        $stmt->bindParam(':cpf', $cpf) ;
-        $stmt->bindParam(':senha', $senha);
-        $stmt->bindParam(':fone', $fone);
-        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':user',   $user);
+        $stmt->bindParam(':nome',   $nome);
+        $stmt->bindParam(':cpf',    $cpf) ;
+        $stmt->bindParam(':senha',  $senha);
+        $stmt->bindParam(':fone',   $fone);
+        $stmt->bindParam(':email',  $email);
         $stmt->bindParam(':funcao', $funcao);
-        $stmt->bindParam(':ativo', $ativo);
-        $stmt->bindParam(':cep', $cep);
-        $stmt->bindParam(':rua', $rua);
-        $stmt->bindParam(':num', $num);
-        $stmt->bindParam(':comp', $comp);
+        $stmt->bindParam(':ativo',  $ativo);
+        $stmt->bindParam(':cep',    $cep);
+        $stmt->bindParam(':rua',    $rua);
+        $stmt->bindParam(':num',    $num);
+        $stmt->bindParam(':comp',   $comp);
         $stmt->bindParam(':bairro', $bairro);
         $stmt->bindParam(':cidade', $cidade);
         $stmt->bindParam(':estado', $estado);
 
         $stmt->execute();
             echo "Dados salvos";
-    } catch (\Throwable $e) {
+    } catch (Exception $e) {
         echo "Falha ao iniciar";
         echo '<br>';
         echo $e;

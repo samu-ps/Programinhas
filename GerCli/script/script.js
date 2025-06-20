@@ -26,3 +26,14 @@ document.getElementById('foneFunc').addEventListener('input', function (e) {
     }
     e.target.value = value;
 });
+// Máscara CEP
+document.getElementById('cepFunc').addEventListener('input', function (e) {
+    let value = e.target.value.replace(/\D/g, ''); // Remove tudo que não for número
+    if (value.length > 8) {
+        value = value.slice(0, 8);
+    }
+    if (value.length > 5) {
+        value = value.replace(/^(\d{5})(\d{0,3})/, '$1-$2');
+    }
+    e.target.value = value;
+});

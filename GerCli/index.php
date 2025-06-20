@@ -15,15 +15,15 @@
     <link rel="stylesheet" href="./style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-dark text-light">
     <div class="login row justify-content-center" >
         <div class="form col-10">
             <img src="./img/usera.png" alt="Login" width="130px" height="130px">
             <!-- imagem -->
             <!-- 5 - configurar o 'action' e o POST do form -->
-            <form action="criarc.php" method="POST" class="p-5 border rounded bg-light">
+            <form action="criarf.php" method="POST" class="p-5 border rounded bg-dark text-light">
                 <!-- Informações Pessoais -->
-                <h5 class="mb-4">Informações Pessoais</h5>
+                <h5 class="mb-4">Informações do Funcionário</h5>
                 <div class="row g-4">
                     <div class="col-md-4">
                         <label for="nomeFunc" class="form-label">Nome</label>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <!-- Endereço -->
-                <h5 class="mb-4 mt-5">Endereço</h5>
+                <h5 class="mb-4 mt-5">Endereço do FUncionário</h5>
                 <div class="row g-4">
                     <div class="col-md-4">
                         <label for="cepFunc" class="form-label">CEP</label>
@@ -122,7 +122,7 @@
                         <input type="text" class="form-control form-control-lg" id="numFunc" name="numFunc">
                     </div>
                 </div>
-                <div class="row g-4 mt-1">
+                <div class="row g-4 mt-1 justify-content-center">
                     <div class="col-md-4">
                         <label for="compFunc" class="form-label">Complemento</label>
                         <input type="text" class="form-control form-control-lg" id="compFunc" name="compFunc">
@@ -138,4 +138,3 @@
     <script src="./script/script.js"></script>
 </body>
 </html>
-
