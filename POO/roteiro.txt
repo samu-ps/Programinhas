@@ -1,0 +1,11 @@
+18/08/2025
+
+1- Abrir a estrututa padrão php/html - index.php
+
+2- Editar a estrutura padrão: título, css, ícone
+
+3- Criar a DIV e o FORM - body{}
+    3.1- Criar os inputs: usuário e senha
+    3.2- Criar o button para LOGAR
+
+4- Configurar o estilo da interface de login

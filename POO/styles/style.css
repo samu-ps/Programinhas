@@ -1,0 +1,76 @@
+/* 4- Configurar o estilo da interface de login */
+
+body{
+    /* cor de fundo */
+    background-color: rgba(120, 121, 121, 0.856);
+
+    /* remover a borda do navegador */
+    margin: 0;
+
+    /* tornar o body flexível -> posicionar os elementos*/
+    display: flex;
+
+    /* alinhamento horizontal */
+    justify-content: center;
+
+    /* alinhamento vertical */
+    align-items: center;
+
+    /* espaçamento entre elementos */
+    padding: 20%;
+}
+
+.login{
+    /* largura da div */
+    width: 22%;
+    /* espaçamento entre elementos */
+    padding: 10px;
+    /* margem automática */
+    margin: auto;
+    text-align: center;
+    /* border: red 2px solid; */
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px 3px black;
+    background-color: rgb(174, 174, 175);
+}
+
+form{
+    /* definir borda */
+    justify-content: center;
+    background-color: rgb(174, 174, 175);
+    padding: 6%;
+    /* posicionar o 'form' sempre à rente de 'login' */
+    z-index: 1;
+    /* centralizar o texto */
+    border-radius: 15px;
+    /* habilitar o posicionamento dos elementos em relação ao elemento pai */
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    /* fonte */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgb(243, 239, 239);
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 7px;
+    margin: 4px;
+    outline: 0;
+}
+
+button{
+    margin-top: 10px;
+    width: 98%;
+    background-color: rgb(43, 204, 43);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: rgb(36, 170, 36);
+}

@@ -9,7 +9,7 @@
     $senha=$_POST['senha'];
 
     // Verificar(SELECT) se o usuário e a senha existem no DB
-    $query = $pdo -> query("SELECT* FROM funcionarios where usuarioFunc='$usuario' and senhaFunc='$senha'");
+    $query = $pdo -> query("SELECT * FROM funcionarios where usuarioFunc='$usuario' and senhaFunc='$senha'");
     // executar a query e armazenar a resposta do DB
     $result = $query -> fetchAll(PDO::FETCH_ASSOC); 
     // Analisar a resposta do DB
