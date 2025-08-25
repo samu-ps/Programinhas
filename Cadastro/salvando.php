@@ -36,3 +36,4 @@
 cpfCli varchar(14) 
 foneCli varchar(14) 
 senhaCli -->
+ $user

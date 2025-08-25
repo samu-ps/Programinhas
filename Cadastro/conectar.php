@@ -12,6 +12,7 @@
     try { //tentar conectar ao DB:
         //criar variável do tipo DPO
         $pdo = new PDO("mysql:dbname=$banco; hostname=$servidor; charset=utf8","$usuario","$senha");
+        echo '<strong class="sucesso">Conexão com o banco de dados realizada com sucesso!</strong>';
     } catch (Exception $e) {//se der errado:
         // Criamos a variável do tipo Exception(e) para receber os erros de conexão retornados pelo DB
         echo '<strong class="erro">Erro ao conectar no banco de dados.</strong>';
