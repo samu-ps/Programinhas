@@ -1,11 +1,30 @@
 18/08/2025
 
-1- Abrir a estrututa padrão php/html - index.php
+1 - Abrir a estrututa padrão php/html - index.php
 
-2- Editar a estrutura padrão: título, css, ícone
+2 - Editar a estrutura padrão: título, css, ícone
 
-3- Criar a DIV e o FORM - body{}
+3 - Criar a DIV e o FORM - body{}
     3.1- Criar os inputs: usuário e senha
     3.2- Criar o button para LOGAR
+    3.3- Definir o action="autenticar.php" e o method="POST"-> FORM
 
-4- Configurar o estilo da interface de login
+4 - Configurar o estilo da interface de login
+
+25/08
+5 - Adicionar a imagem ao form -> head
+    5.1-  personalizar o estilo da imagem
+
+6 - Adicionar a estrutura php-> inicio do index.php
+    6.1- Criar a sessão de variaveis globais
+    6.2- verificar se o POST foi executado
+    6.3- verificar se o usuario e senha estão corretos 
+        se correto:   6.4 -enviar 'usuario' para a seção de variaveis globais
+                      6.5- direcionar para interface principal.php
+        se incorreto: 6.6- exibir mensagem informando ao usuario o erro e retorna para interface de login- index.php1
+
+7-criar o arquivo principal.php
+    7.1- criar a estrutura html
+    7.2- criar a barra de usuario
+    7.3- barra de menu
+    7.4- criar a área de conteúdos

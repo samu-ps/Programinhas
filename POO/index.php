@@ -1,8 +1,28 @@
 <!-- 1 - Estrutura PHP -->
+<!-- // 6 - sessão php -->
 <?php
+// 6.1- sessão de variaveis globais
+@session_start();
 
+// 6.2- capturar conteúdo de 'user' e 'psw'
+if (isset($_POST['user'])&& isset($_POST['psw'])) {
+    $usuario = $_POST['user'];
+    $senha = $_POST['psw'];
 
-
+    // 6.3- autenticação de usuario/senha
+    if($usuario == 'samuel' && $senha == '123'){
+        // 6.4- enviar o 'usuário' para a sessão de variáveis globais 
+        $_SESSION['user'] = $usuario;
+        // 6.5 - direcionar para principal.php
+        echo'<script>window.location="./principal.php"</script>';
+        exit();
+    }
+    // 6.6 se usuario/senha errado exibe mensagem
+    else{
+        // exibir mensagem de alerta
+        echo '<script>alert("Usuário e/ou senha incorreto")</script>';
+    }
+}
 
 ?>
 
@@ -24,9 +44,10 @@
     <div class="login">
         <div>SISTEMA DE CONTROLE</div>
         <!-- Criar o formulário -->
-        <!-- 3.1 - 3.2, iputs e botões -->
-        <form action="autenticar.php" method="POST">
-            <img src="./img/login.png" class="logo" width="90px" height="90px" style="margin-bottom: 7px;">
+        <!-- 3.1 - 3.2 - 3.3, inputs e botões -->
+        <form action="" method="POST">
+            <!-- 5 - imagem no form  -->
+            <img src="./img/login.png" class="logo">
             <input type="text" name="user" placeholder="Usuário" required>
             <input type="password" name="psw" placeholder="* * * * * * *" required>
             <button type="submit">entrar</button>
