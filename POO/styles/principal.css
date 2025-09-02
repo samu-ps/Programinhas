@@ -1,0 +1,67 @@
+body{
+    /* cor de fundo */
+    background-color: rgba(120, 121, 121, 0.856);
+    /* remover margens padrão */
+    margin: 0;
+    /* fonte do texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* cor do texto */
+    color: white;
+}
+
+.menu{
+    margin: 1%;
+    background-color:rgb(174, 174, 175) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    align-items: center;
+    box-shadow: 7px 7px 7px 4px black;
+}
+.titulo{
+    text-decoration: underline;
+}
+.opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.opcoes button{
+    background-color: rgb(42, 43, 131);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 110px;
+    margin: 2%;
+    box-shadow: 5px 5px 5px 1px blue;
+}
+.opcoes button:hover{
+    background-color:rgb(35, 36, 90);
+    cursor: pointer;
+}
+
+.imgSair{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    
+}
+
+.btnSair{
+    background-color: rgb(174, 174, 175);
+    border: none;
+    padding: 0;
+}
+.btnSair:hover{
+    cursor: pointer;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

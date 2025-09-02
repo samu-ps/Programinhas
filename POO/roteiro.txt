@@ -25,6 +25,19 @@
 
 7-criar o arquivo principal.php
     7.1- criar a estrutura html
-    7.2- criar a barra de usuario
-    7.3- barra de menu
+    7.2- criar uma DIV (barra de menu)
+        contendo DIV 'usuario' e DIV 'sair' -> body
+    7.3- criar os botões de navegação
     7.4- criar a área de conteúdos
+
+8 - Criar sessão php para identificar o usuário logado
+    8.1 - Recuperar o usuário logado
+    8.2 - exibir o usuário logado 
+    8.3 - criar botão para logout
+        Redireciona ara index.hp
+        apaga as variáveis de memória local e global
+        limpa o cacche do navegador
+        só isso.
+    8.4 - criar o arquivo sair.php
+
+9 - coigurar o estilo para principal.php -> principal.css

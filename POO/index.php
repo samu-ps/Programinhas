@@ -1,6 +1,7 @@
 <!-- 1 - Estrutura PHP -->
 <!-- // 6 - sessão php -->
 <?php
+
 // 6.1- sessão de variaveis globais
 @session_start();
 
@@ -8,6 +9,7 @@
 if (isset($_POST['user'])&& isset($_POST['psw'])) {
     $usuario = $_POST['user'];
     $senha = $_POST['psw'];
+
 
     // 6.3- autenticação de usuario/senha
     if($usuario == 'samuel' && $senha == '123'){
