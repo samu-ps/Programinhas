@@ -23,7 +23,7 @@
                       6.5- direcionar para interface principal.php
         se incorreto: 6.6- exibir mensagem informando ao usuario o erro e retorna para interface de login- index.php1
 
-7-criar o arquivo principal.php
+7 - criar o arquivo principal.php
     7.1- criar a estrutura html
     7.2- criar uma DIV (barra de menu)
         contendo DIV 'usuario' e DIV 'sair' -> body
@@ -40,4 +40,8 @@
         só isso.
     8.4 - criar o arquivo sair.php
 
-9 - coigurar o estilo para principal.php -> principal.css
+9 - configurar o estilo para principal.php -> principal.css
+
+10 - criar os scripts para abrir as interfaces em 'conteudo'
+
+11 - Adicionar script JQuery -> head

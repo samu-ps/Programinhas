@@ -1,7 +1,7 @@
 <!-- 1 - Estrutura PHP -->
 <!-- // 6 - sessão php -->
 <?php
-
+require_once("./conexao.php");
 // 6.1- sessão de variaveis globais
 @session_start();
 
@@ -12,7 +12,7 @@ if (isset($_POST['user'])&& isset($_POST['psw'])) {
 
 
     // 6.3- autenticação de usuario/senha
-    if($usuario == 'samuel' && $senha == '123'){
+    if($usuario == 'alessandro' && $senha == '123'){
         // 6.4- enviar o 'usuário' para a sessão de variáveis globais 
         $_SESSION['user'] = $usuario;
         // 6.5 - direcionar para principal.php

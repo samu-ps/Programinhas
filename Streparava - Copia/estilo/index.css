@@ -1,0 +1,156 @@
+/* 4 - Estilo: css */
+body{
+    /* definir cor de fundo para o body */
+    background: rgb(13, 120, 153);
+    /* tornar o body flex -> permite posicionar os elementos livremente na horizontal e vertical*/
+    display: flex;
+    /* centralizar horizontalmente */
+    justify-content: center;
+    /* centralizar verticalmente */
+    align-items: center;
+    /* remover as margens body */
+    margin: 0;
+    padding-top: 100px;
+}
+
+/* 4.1 */
+.form{
+    /* ajustar a largura da div form */
+    width: 500px;
+    /* ajustar margem */
+    margin: auto;
+    /* espaçamento entre elementos */
+    padding: 40px 0 0;
+    }
+
+/* 4.2 */
+form{
+    /* posicionar o form em relação ao PAI */
+    position: relative;
+    /* posicionar o form sobre o elemento PAI */
+    z-index: 1;
+    /* cor de fundo para o form */
+    background: #fff;
+    /* ajustar a larguda do form */
+    width: 80%;
+    /* ajustar margem Vert. e Hor.*/
+    margin: 0 auto;
+    /* espaçamento entre os elementos */
+    text-align: center;
+    /* Cantos arredondados */
+    border-radius: 40px;
+    /* Aplicar sombra sob o componente */
+    box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.5);
+}
+
+/* 4.3 */
+input{
+    /* definir tipo da letra (fonte) */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* tamando da fonte */
+    font-size: 20px;
+    /* remover borda */
+    border: 0;
+    /* remover borda de seleção */
+    outline: 0;
+    /* cor de fundo */
+    background: rgb(218, 216, 216);
+    /* espaço ente os elementos (input's) */
+    padding: 15px;
+    /* margem entre os elementos */
+    margin: 10px auto;
+    /* Definir comprimento do elemento */
+    width: 70%;
+    /* centralizar o texto do input */
+    text-align: center;
+    /* Aplicar sombra sob o componente */
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.5);
+}
+
+/* 4.4 */
+button{
+    /* definir fonte */
+    font-family: 'Courier New', Courier, monospace;
+    /* texto maiúsculo */
+    text-transform: uppercase;
+    /* remover borda */
+    border: 0;
+    /* remover borda de seleção */
+    outline: 0;
+    /* cor de fundo */
+    background: rgb(11, 119, 138);
+    /* definir comprimento do botão = ao form */
+    width: 70%;
+    /* espaçamento entre os elementos do botão */
+    padding: 15px;
+    /* icone do mouse sobre o botão */
+    cursor: pointer;
+    /* tamando da fonte */
+    font-size: 20px;
+    /* margem entre os elementos */
+    margin: 0px 0px 20px;
+    /* centralizar o texto do input */
+    text-align: center;
+    /* margem superior - entre o 'button' e o input 'senha' */
+    margin-top: 15px;
+    /* margem inferior - entre o 'button' e borda do 'form' */
+    margin-bottom: 40px;
+     /* Cantos arredondados */
+     border-radius: 40px;
+}
+
+.logo{
+    /* margem superior da imagem em relação ao 'form' */
+    margin-top: 20px;
+    width: 200px;
+}
+/* Alterar a propriedade do componente quando o mouse estiver sobre ele */
+button:hover, button:focus{
+    background: rgb(75, 143, 155);
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.5);
+}
+/* Alterar a cor do componente quando receber o click do mouse */
+button:active, button:focus{
+    background: rgba(8, 85, 226, 0.877);
+    color: #fff;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.5);
+}
+/* altera a cor da sombra do elemento ao receber o click ou foco do mouse */
+input:hover, input:active{
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.9);
+}
+
+input:-webkit-autofill {
+    /* cor de fundo */
+    -webkit-box-shadow: 0 0 0 1000px rgb(255, 255, 255) inset;
+    /* cor do texto */
+    webkit-text-fill-color: #000; 
+    /* desabilitar 'piscar' */
+    transition: background-color 5000s ease-in-out 0s; 
+}
+  
+input:-webkit-autofill:focus {
+    /* fundo quando focado */
+    -webkit-box-shadow: 0 0 0 1000px #e0f7fa inset;
+    /* cor do texto */
+    -webkit-text-fill-color: #000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

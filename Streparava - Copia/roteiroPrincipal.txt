@@ -1,0 +1,40 @@
+Configurar o arquivo principal.php
+
+1 - Abrir a estrutura padrão HTML -> principal.php
+2 - Editar estrutura padrão: titulo, css e icone
+
+3 - Adicionar uma linha de 'menu' ao topo do body
+    3.1 Adicionar uma div para PetShop
+    3.2 Adicionar uma div para Bem vindo, 'usuário'
+
+4 - Trabalhar o estilo do body e div 'menu' -> principal.css
+
+5 - Identificar o usuário logado no sistema:
+    5.1 - Armazenar a variável $usr na sessão de variáveis -> index.php
+    5.2 - Recuperar a variável $usr da sessão, na interface pricipal.php
+    5.3 - Exibir no nome do usuário logado
+
+6 - Adicionar botão para sair/logout, encerrar a sessão de conexão -> principal.php
+    6.1 - Criar arquivo logout.php para encerrar sessão
+
+    6.2 - EDITAR o botão 'Sair':
+            substituir por imagem -> principal.php
+            posicionar ao lado no 'usuário' -> principal.css
+            estilo das classes envolvidas:
+                usuario, botao-sair, icone-sair
+                Adicionar hover às classes: botao-sair, icone-sair
+
+7 - Criar a <div> para 'menu de opções' do sistema -> principal.php
+    7.1 - estilo das classes envolvidas:
+        opcoes e button
+        Adiconar hover às classes envolvidas
+
+8 - Criar a  área de conteúdo -> principal.php 
+    8.1 - Estilizar a área de conteúdo -> principal.css
+
+9 - Criar o script para ler os arquivos e exibir dentro da area de conteúdo
+    arquivos: clientes.php, pet.php, atendimento.php, estoque.php,
+    fornecedores.php, produtos.php, admin.php
+    ->principal.php
+
+

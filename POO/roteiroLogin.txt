@@ -1,0 +1,67 @@
+Criar um sistema com interface de login
+
+1 - Abrir a estrutura padrão HTML -> index.php
+2 - Editar estrutura padrão: titulo, css e icone
+3 - Criar a DIV e o FORM no body
+    3.1 - Criar inputs para receber usuário e senha
+    3.2 - Criar os botões para validar usuário e senha
+
+4 - Estilo: css
+    4.1 - atribuir nome e estilo à div -> 'class form'
+    4.2 - estilo para form -> login
+    4.3 - estilo para os input´s
+    4.4 - estilo para button
+
+5 - Adicionar uma imagem ao 'form' -> index.html
+    5.1 - personalizar o estilo da imagam -> estilo.css
+
+24/06/2025
+6 - Adicionar o method="POST" ao 'form'
+
+7 - Adicionar a estrutura do PHP (início do index.html) ao sistema de login
+    7.1 - Criar uma sessão de variáveis
+    7.2 - Verificar se o POST foi realizado -> se o conteúdo dos 'inputs' foram
+          armazenados nas variáveis de memória [usuario e senha]
+    7.3 - Verificar se o usuário e senha estão corretos:
+        Se correto: direcionar para principal.php e identificar o usuário logado
+        Se incorreto: Exibir mensagem informando usuário e/ou senha incorreto
+                      Direcionar para interface de login
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

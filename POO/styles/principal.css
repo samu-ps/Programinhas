@@ -11,7 +11,7 @@ body{
 
 .menu{
     margin: 1%;
-    background-color:rgb(174, 174, 175) ;
+    background-color:rgb(158, 37, 37) ;
     display: flex;
     justify-content: space-between;
     padding: 0.5%;
@@ -23,13 +23,13 @@ body{
 }
 .opcoes{
     display: flex;
-    justify-content: center;
+
     align-items: center;
-    margin-top: 10%;
+
 }
 
 .opcoes button{
-    background-color: rgb(42, 43, 131);
+    background-color: rgb(174, 174, 175);
     color: white;
     display: flex;
     justify-content: center;
@@ -37,10 +37,10 @@ body{
     height: 60px;
     width: 110px;
     margin: 2%;
-    box-shadow: 5px 5px 5px 1px blue;
+    box-shadow: 5px 5px 5px 1px black;
 }
 .opcoes button:hover{
-    background-color:rgb(35, 36, 90);
+    background-color:rgb(102, 102, 104);
     cursor: pointer;
 }
 
@@ -52,7 +52,7 @@ body{
 }
 
 .btnSair{
-    background-color: rgb(174, 174, 175);
+    background-color: rgb(158, 37, 37);
     border: none;
     padding: 0;
 }
